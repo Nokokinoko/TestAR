@@ -1,5 +1,5 @@
 # Dependency
-Unity 2019.4.13f1  
+Unity 2019.4.17f1  
 Vuforia Engine AR 8.1.12
 
 # License
