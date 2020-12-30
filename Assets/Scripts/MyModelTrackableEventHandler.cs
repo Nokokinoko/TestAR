@@ -8,7 +8,7 @@ public class MyModelTrackableEventHandler : DefaultTrackableEventHandler
   {
     base.OnTrackingFound();
 
-    if(mTrackableBehaviour.gameObject.GetComponentInChildren<MyModelController>() != null)
+    if (mTrackableBehaviour.gameObject.GetComponentInChildren<MyModelController>() != null)
     {
       mTrackableBehaviour.gameObject.GetComponentInChildren<MyModelController>().StartAnime();
     }
